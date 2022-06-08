@@ -1,0 +1,1 @@
+cat $GITLAB_HOME/config/initial_root_password | grep Password:
