@@ -1,0 +1,15 @@
+
+project: gitlab-self-hosted-runner
+
+#
+# Providers
+#
+providers:
+  # you can mix and match many files
+  dotenv:
+    env_sync:
+      path: ./.env
+    env:
+      GITLAB_HOME:
+        path: ./.env
+
